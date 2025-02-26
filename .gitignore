@@ -1,1 +1,38 @@
-venv/
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+/venv/
+/env/
+.venv/
+.env/
+
+#.env
+.env
+.env.*
+
+# Flask instance folder
+instance/
+
+# Flask config files
+*.log
+
+# Database
+*.db
+*.sqlite3
+site.db
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# JetBrains specific files
+.idea/
